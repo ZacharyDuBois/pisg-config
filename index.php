@@ -45,6 +45,7 @@
       <h1 class="page-header">IRC Stats Index (ﾉ◕ヮ◕)ﾉ*:･ ﾟ✧</h1>
 
       <p>This index contains links to different channel stats for IRC.</p>
+      <p>If you have other nicks that are being tracked seperatly or want to be removed from these stats, please open an issue on it's <a href="https://we.destroy.tokyo/pisg-config">GitHub</a>.
 
     </div>
   </div>
@@ -52,7 +53,8 @@
     <div class="col-md-5 col-md-offset-2">
       <h1 class="page-header"><i class="fa fa-file"></i> Index</h1>
 
-      <p>Below is a listing of files for this CDN in alphabetical order.</p>
+      <p>Below is a listing of channels in alphabetical order.</p>
+
       <?php
       foreach(glob('/srv/http/ircstats/public/pages/*.html') as $page) {
         $l=explode('/', $page);
@@ -73,6 +75,7 @@
     <div class="col-md-10 col-md-offset-1">
       <h3>Why are you down here?</h3>
 
+      <p>This page is tracked for statistical purposes.</p>
       <p>&copy; Copyright Zachary DuBois, 2015. All Rights Reserved. Some items have different copyrights. Please contact <code>me</code> at <code>zacharydubois</code> dot <code>me</code> for information.</p>
     </div>
   </div>
