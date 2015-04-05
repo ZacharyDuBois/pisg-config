@@ -54,11 +54,11 @@
 
       <p>Below is a listing of files for this CDN in alphabetical order.</p>
       <?php
-      foreach(glob('/srv/http/ircstats/public/*.html') as $page) {
+      foreach(glob('/srv/http/ircstats/public/pages/*.html') as $page) {
         $l=explode('/', $page);
-        $l=$l[5];
+        $l=$l[6];
       ?>
-      <li><a href="/<?php echo $l; ?>"><i class="fa fa-file-code-o"></i> <?php echo $l; ?></a></li>
+      <li><a href="/pages/<?php echo $l; ?>"><i class="fa fa-file-code-o"></i> <?php echo $l; ?></a></li>
       <?php } ?>
       <!-- Files -->
     </div>
