@@ -56,9 +56,11 @@
       <p>Below is a listing of channels in alphabetical order.</p>
 
       <?php
+      $i=0
       foreach(glob('/srv/http/ircstats/public/pages/*.html') as $page) {
         $l=explode('/', $page);
         $l=$l[6];
+        $i++
       ?>
       <li><a href="/pages/<?php echo $l; ?>"><i class="fa fa-file-code-o"></i> <?php echo $l; ?></a></li>
       <?php } ?>
@@ -67,7 +69,7 @@
     <div class="col-md-3">
       <h2 class="page-header"><i class="fa fa-info-circle"></i> Info</h2>
 
-      <p>Stats generated every: <code>1 hour</code></p>
+      <p>Stats generated every <code>30 minutes</code>.</p>
       <!-- Random stuff here -->
     </div>
   </div>
