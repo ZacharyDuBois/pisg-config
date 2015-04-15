@@ -46,6 +46,7 @@
 
       <p>This index contains links to different channel stats for IRC.</p>
       <p>If you have other nicks that are being tracked seperatly or want to be removed from these stats, please open an issue on it's <a href="https://we.destroy.tokyo/pisg-config">GitHub</a>.
+      <p>If you would like to help on with server costs, throw me some BTC: <code>1NYzSE8xmorvrJJjt9a5riYf5jkKqSCGD3</code>.
 
     </div>
   </div>
