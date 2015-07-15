@@ -71,7 +71,7 @@
       <h2 class="page-header"><i class="fa fa-info-circle"></i> Info</h2>
 
       <p><code><?php echo $i; ?></code> channels logged.</p>
-      <p>Stats generated every <code>30 minutes</code>.</p>
+      <p>Stats generated every <code>15 minutes</code>.</p>
       <!-- Random stuff here -->
     </div>
   </div>
