@@ -86,21 +86,22 @@
   </div>
 </div>
 <!-- /Body Content -->
+<!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//analytics.zacharydubois.net/";
+    var u="//tracking.zacharydubois.moe/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 9]);
+    _paq.push(['setSiteId', 2]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="//analytics.zacharydubois.net/piwik.php?idsite=9" style="border:0;" alt="" /></p></noscript>
+<noscript><p><img src="//tracking.zacharydubois.moe/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
-<script type="text/javascript">var SC_RumID = 988;</script><script type="text/javascript" async src="https://www.statuscake.com/App/RUM/embed.js"></script>
+<script type="text/javascript">var SC_RumID = 1421;</script><script type="text/javascript" async src="https://www.statuscake.com/App/RUM/embed.js"></script>
 </body>
 <script src="https://i.destroy.tokyo/assets/jquery/js/jquery-2.1.1.min.js"></script>
 <script src="https://i.destroy.tokyo/assets/bootstrap/js/bootstrap.min.js"></script>
