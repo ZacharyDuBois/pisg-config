@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+# Make sure there isn't a generation running.
+if [[ $(pgrep pisg) != "" ]]
+then
+  echo "Process already running."
+  exit 0
+fi
+
 # Pull new updates from GitHub
 cd /srv/pisg/pisg-config/
 git pull
