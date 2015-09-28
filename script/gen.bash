@@ -9,3 +9,5 @@ for config in /srv/pisg/pisg-config/config/*.cfg
 do
   /srv/pisg/pisg --configfile=$config
 done
+
+exit 0
