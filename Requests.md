@@ -9,3 +9,4 @@ All requested changes and such will be logged here.
 ## Nicks
 
 - *2016-01-16* `Akeno` requested merge nicks `Akeno_`, `Akeno__`, `Akeno_Mobile`, `Akeno_Phone`, `Akeno_PC`, `tty` and `[Akeno]` on Freenode via IRC `Freenode/#anime`
+- *2016-01-16* `vash` requested merge nick `forks` on Freenode via IRC `Freenode/#anime`
