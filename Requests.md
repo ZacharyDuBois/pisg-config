@@ -13,3 +13,4 @@ All requested changes and such will be logged here.
 - *2016-01-17* [Myrl](https://github.com/Myrl) requested merge nicks `Myrl-chan` and `Myrl-saki` on Freenode via [issue #6](https://github.com/ZacharyDuBois/pisg-config/issues/6).
 - *2016-01-17* `Sadale` requested link nick to `http://sadale.net` on Freenode via IRC `Freenode/#anime`
 - *2016-06-02* [Dhs92](https://github.com/Dhs92) requested merge nicks `Yukkii`, `Yukiku` and `Yukitteru` on Freenode via [issue #7](https://github.com/ZacharyDuBois/pisg-config/issues/7).
+- *2016-07-23* `rascul` requested to change link on his nick to `https://we.destroy.tokyo/Rascul` on Freenode via IRC `Freenode/#digitalocean`.
