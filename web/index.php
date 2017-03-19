@@ -81,7 +81,7 @@
       <h3>Why are you down here?</h3>
 
       <p>This page is tracked for statistical purposes.</p>
-      <p>&copy; Copyright Zachary DuBois, 2015-2016. All Rights Reserved. Some items have different copyrights. Please contact me via IRC for information.</p>
+      <p>&copy; Copyright Zachary DuBois, 2015-2017. All Rights Reserved. Some items have different copyrights. Please contact me via IRC for information.</p>
     </div>
   </div>
 </div>
