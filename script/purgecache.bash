@@ -7,6 +7,6 @@ do
 done
 
 # Set to purge the cache once a day.
-rm /srv/pisg/cache/*
+find /srv/pisg/cache/ -type f -exec rm {} \;
 
 exit 0
