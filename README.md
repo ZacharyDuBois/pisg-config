@@ -17,7 +17,7 @@ This repository houses the configuration for [PISG](http://pisg.sourceforge.net)
 
 ```cron
 */15 * * * * /bin/bash /srv/pisg/pisg-config/script/gen.bash > /srv/pisg/last.log 2>&1
-55 23 * * * /bin/bash /srv/pisg/pisg-config/script/purgecache.bash > /srv/pisg/purge.log 2>&1
+55 23 1 * * /bin/bash /srv/pisg/pisg-config/script/purgecache.bash > /srv/pisg/purge.log 2>&1
 ```
 
 - The pages dir, gfx dir, and index.php are symlinked into the web root.

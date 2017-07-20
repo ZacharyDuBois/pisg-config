@@ -14,7 +14,7 @@ git pull
 # Render all configs.
 for config in /srv/pisg/pisg-config/config/*.cfg
 do
-  /srv/pisg/pisg --configfile=$config
+  nice -n 5 /srv/pisg/pisg --configfile=$config
 done
 
 exit 0
