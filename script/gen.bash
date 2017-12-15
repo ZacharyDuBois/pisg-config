@@ -7,6 +7,13 @@ then
   exit 0
 fi
 
+# Don't run during backups
+while pgrep restic > /dev/null
+do
+  sleep 1
+done
+
+
 # Pull new updates from GitHub
 cd /srv/pisg/pisg-config/
 git pull
