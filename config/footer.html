@@ -2,21 +2,21 @@
 <p>Stats generated every <code>15 minutes</code>.</p>
 <p>If you have other nicks that are being tracked seperatly or want to be removed from these stats, please open an issue on its <a href="https://we.destroy.tokyo/pisg-config">GitHub</a>.</p>
 <p>If you would like to help on with server costs, throw me some BTC: <code>1NYzSE8xmorvrJJjt9a5riYf5jkKqSCGD3</code>.</p>
-<p>Guest nicks on Freenode (<code>Guest*</code>) will not be tracked.</p>
 <p>This page is tracked for statistical purposes.</p>
-<p>&copy; Copyright Zachary DuBois, 2015-2018. All Rights Reserved. Some items have different copyrights. Please contact me via IRC for information.</p>
-<!-- Piwik -->
+<p>&copy; Copyright Zachary DuBois, 2015-2021. All Rights Reserved. Some items have different copyrights. Please contact me via IRC for information.</p>
+<!-- Matomo -->
 <script type="text/javascript">
-  var _paq = _paq || [];
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//tracking.zacharydubois.moe/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 2]);
+    var u="https://matomo.zacharydubois.moe/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '3']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="//tracking.zacharydubois.moe/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<noscript><p><img src="https://matomo.zacharydubois.moe/matomo.php?idsite=3&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
